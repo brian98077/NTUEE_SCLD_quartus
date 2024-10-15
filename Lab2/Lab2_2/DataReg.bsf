@@ -1,0 +1,67 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 248 176)
+	(text "DataReg" (rect 5 0 48 12)(font "Arial" ))
+	(text "inst" (rect 8 80 25 92)(font "Arial" ))
+	(port
+		(pt 0 40)
+		(input)
+		(text "clk" (rect 24 32 39 46)(font "Arial" (font_size 8)))
+		(text "clk" (rect 24 32 39 46)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 16 40))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "rst_n" (rect 24 56 53 70)(font "Arial" (font_size 8)))
+		(text "rst_n" (rect 24 56 53 70)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 88 112)
+		(input)
+		(text "D[3..0]" (rect 80 45 94 81)(font "Arial" (font_size 8))(vertical))
+		(text "D[3..0]" (rect 96 72 110 108)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 112)(pt 88 80))
+	)
+	(port
+		(pt 88 0)
+		(output)
+		(text "Q[3..0]" (rect 80 24 94 61)(font "Arial" (font_size 8))(vertical))
+		(text "Q[3..0]" (rect 96 1 110 38)(font "Arial" (font_size 8))(vertical))
+		(line (pt 88 0)(pt 88 16))
+	)
+	(drawing
+		(line (pt 48 32)(pt 72 32))
+		(line (pt 48 56)(pt 72 56))
+		(line (pt 48 32)(pt 48 72))
+		(line (pt 80 32)(pt 104 32))
+		(line (pt 80 56)(pt 96 56))
+		(line (pt 96 56)(pt 104 56))
+		(line (pt 80 32)(pt 80 72))
+		(line (pt 128 32)(pt 112 56))
+		(line (pt 112 56)(pt 144 56))
+		(line (pt 128 32)(pt 128 72))
+		(rectangle (rect 16 16 168 80))
+	)
+)

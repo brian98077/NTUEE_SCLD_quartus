@@ -1,0 +1,67 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 56 56 176 168)
+	(text "Controller" (rect 13 8 60 20)(font "Arial" ))
+	(text "inst" (rect 16 88 33 100)(font "Arial" ))
+	(port
+		(pt 120 48)
+		(input)
+		(text "load" (rect 53 40 76 54)(font "Arial" (font_size 8)))
+		(text "load" (rect 103 32 126 46)(font "Arial" (font_size 8)))
+		(line (pt 120 48)(pt 88 48))
+	)
+	(port
+		(pt 48 112)
+		(input)
+		(text "clk" (rect 40 53 54 68)(font "Arial" (font_size 8))(vertical))
+		(text "clk" (rect 24 96 38 111)(font "Arial" (font_size 8))(vertical))
+		(line (pt 48 112)(pt 48 88))
+	)
+	(port
+		(pt 80 112)
+		(input)
+		(text "rst_n" (rect 72 53 86 82)(font "Arial" (font_size 8))(vertical))
+		(text "rst_n" (rect 80 79 94 108)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 112)(pt 80 88))
+	)
+	(port
+		(pt 120 72)
+		(output)
+		(text "done" (rect 53 64 81 78)(font "Arial" (font_size 8)))
+		(text "done" (rect 103 80 131 94)(font "Arial" (font_size 8)))
+		(line (pt 120 72)(pt 88 72))
+	)
+	(drawing
+		(line (pt 32 40)(pt 48 40))
+		(line (pt 32 56)(pt 48 56))
+		(line (pt 32 40)(pt 32 72))
+		(line (pt 64 40)(pt 64 72))
+		(line (pt 64 40)(pt 72 64))
+		(line (pt 80 40)(pt 72 64))
+		(line (pt 80 40)(pt 80 72))
+		(rectangle (rect 24 24 88 88))
+		(arc (pt 64 40)(pt 48 56)(rect 48 40 80 72))
+		(arc (pt 64 64)(pt 48 56)(rect 32 56 64 72))
+		(arc (pt 48 72)(pt 64 64)(rect 32 56 64 72))
+	)
+)
